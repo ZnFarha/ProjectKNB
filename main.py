@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn import preprocessing
 import algorithms
 
+''' ADD transactions.csv UNDER THE DATA FOLDER (it cant be pushed due to the size so never push it) '''
 transactions = pd.read_csv(r'Data\transactions.csv')
 
 # Reordering the columns so is_fraud is on the very right
